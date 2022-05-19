@@ -11,6 +11,8 @@ class LibraryViewController: UIViewController {
 
     let playListViewModel = PlayListViewModel()
     
+    var selectId: String? = nil
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageProfile: UIImageView!
     
@@ -61,8 +63,26 @@ extension LibraryViewController: UITableViewDelegate, UITableViewDataSource {
         ? HelperImage.setImageFromUrl(url: playList?.images[0].url ?? "")
         : UIImage(named: "music")
         
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor(named: "darkColor")
+        cell.selectedBackgroundView = backgroundView
+
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectId = playListViewModel.playList?.items[indexPath.section].id
+        performSegue(withIdentifier: "detail", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detail" {
+            let playlistDetail = segue.destination as! PlaylistDetailViewController
+            playlistDetail.id = selectId
+        }
+    }
+    
+    
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         // Esto es la linea que se forma de separacion por eso debemos decirle que sea del mismo
