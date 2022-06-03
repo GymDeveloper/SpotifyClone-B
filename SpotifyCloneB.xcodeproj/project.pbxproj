@@ -23,11 +23,20 @@
 		861D70212836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D70202836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift */; };
 		861D70242836FDAE003B0BC7 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 861D70232836FDAE003B0BC7 /* SDWebImage */; };
 		861D70262836FDAE003B0BC7 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 861D70252836FDAE003B0BC7 /* SDWebImageMapKit */; };
+		868EFC5F2841775C00FAD5F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */; };
+		868EFC622841789200FAD5F8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC612841789200FAD5F8 /* FirebaseAuth */; };
+		868EFC642841789200FAD5F8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC632841789200FAD5F8 /* FirebaseDatabase */; };
+		868EFC662841789200FAD5F8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC652841789200FAD5F8 /* FirebaseFirestore */; };
+		868EFC682841789200FAD5F8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC672841789200FAD5F8 /* FirebaseStorage */; };
 		86C790652836E92500DA691B /* PlayListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C790642836E92500DA691B /* PlayListDetail.swift */; };
 		86C790672836EAC400DA691B /* PlatlistDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C790662836EAC400DA691B /* PlatlistDetailViewModel.swift */; };
 		86C790692836ECA900DA691B /* PlaylistDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C790682836ECA900DA691B /* PlaylistDetail.storyboard */; };
 		86C7906B2836ED0700DA691B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7906A2836ED0700DA691B /* GradientView.swift */; };
 		86C7906D2836F23300DA691B /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7906C2836F23300DA691B /* PlaylistDetailViewController.swift */; };
+		86F240A7284AA41600ED04A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F240A6284AA41600ED04A6 /* HomeViewController.swift */; };
+		86F240A9284AA59400ED04A6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F240A8284AA59400ED04A6 /* Search.swift */; };
+		86F240AB284AA67D00ED04A6 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F240AA284AA67D00ED04A6 /* SearchViewModel.swift */; };
+		86F240AD284AAD9F00ED04A6 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F240AC284AAD9F00ED04A6 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,11 +56,16 @@
 		8617D9432826BCDB00DF95FD /* PlatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatListViewModel.swift; sourceTree = "<group>"; };
 		8617D9452826BDDD00DF95FD /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		861D70202836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlaylistDetailTableViewCell.swift; sourceTree = "<group>"; };
+		868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86C790642836E92500DA691B /* PlayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetail.swift; sourceTree = "<group>"; };
 		86C790662836EAC400DA691B /* PlatlistDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatlistDetailViewModel.swift; sourceTree = "<group>"; };
 		86C790682836ECA900DA691B /* PlaylistDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaylistDetail.storyboard; sourceTree = "<group>"; };
 		86C7906A2836ED0700DA691B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		86C7906C2836F23300DA691B /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		86F240A6284AA41600ED04A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		86F240A8284AA59400ED04A6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		86F240AA284AA67D00ED04A6 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		86F240AC284AAD9F00ED04A6 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +74,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				861D70262836FDAE003B0BC7 /* SDWebImageMapKit in Frameworks */,
+				868EFC622841789200FAD5F8 /* FirebaseAuth in Frameworks */,
+				868EFC642841789200FAD5F8 /* FirebaseDatabase in Frameworks */,
+				868EFC662841789200FAD5F8 /* FirebaseFirestore in Frameworks */,
 				861D70242836FDAE003B0BC7 /* SDWebImage in Frameworks */,
+				868EFC682841789200FAD5F8 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +113,7 @@
 				8617D9332826AEFA00DF95FD /* Model */,
 				8617D91F2826ACA400DF95FD /* AppDelegate.swift */,
 				8617D9212826ACA400DF95FD /* SceneDelegate.swift */,
+				868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */,
 				8617D9282826ACA800DF95FD /* Assets.xcassets */,
 				8617D92D2826ACA800DF95FD /* Info.plist */,
 			);
@@ -106,6 +125,7 @@
 			children = (
 				8617D93F2826BAEC00DF95FD /* PlayList.swift */,
 				86C790642836E92500DA691B /* PlayListDetail.swift */,
+				86F240A8284AA59400ED04A6 /* Search.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +136,7 @@
 				8617D9232826ACA400DF95FD /* ViewController.swift */,
 				8617D9452826BDDD00DF95FD /* LibraryViewController.swift */,
 				86C7906C2836F23300DA691B /* PlaylistDetailViewController.swift */,
+				86F240A6284AA41600ED04A6 /* HomeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 				8617D9412826BB4200DF95FD /* Request.swift */,
 				8617D9432826BCDB00DF95FD /* PlatListViewModel.swift */,
 				86C790662836EAC400DA691B /* PlatlistDetailViewModel.swift */,
+				86F240AA284AA67D00ED04A6 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -162,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				861D70202836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift */,
+				86F240AC284AAD9F00ED04A6 /* SearchTableViewCell.swift */,
 			);
 			path = ViewCell;
 			sourceTree = "<group>";
@@ -185,6 +208,10 @@
 			packageProductDependencies = (
 				861D70232836FDAE003B0BC7 /* SDWebImage */,
 				861D70252836FDAE003B0BC7 /* SDWebImageMapKit */,
+				868EFC612841789200FAD5F8 /* FirebaseAuth */,
+				868EFC632841789200FAD5F8 /* FirebaseDatabase */,
+				868EFC652841789200FAD5F8 /* FirebaseFirestore */,
+				868EFC672841789200FAD5F8 /* FirebaseStorage */,
 			);
 			productName = SpotifyCloneB;
 			productReference = 8617D91C2826ACA400DF95FD /* SpotifyCloneB.app */;
@@ -216,6 +243,7 @@
 			mainGroup = 8617D9132826ACA300DF95FD;
 			packageReferences = (
 				861D70222836FDAE003B0BC7 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 8617D91D2826ACA400DF95FD /* Products */;
 			projectDirPath = "";
@@ -232,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8617D92C2826ACA800DF95FD /* LaunchScreen.storyboard in Resources */,
+				868EFC5F2841775C00FAD5F8 /* GoogleService-Info.plist in Resources */,
 				8617D9292826ACA800DF95FD /* Assets.xcassets in Resources */,
 				86C790692836ECA900DA691B /* PlaylistDetail.storyboard in Resources */,
 				8617D9272826ACA400DF95FD /* Main.storyboard in Resources */,
@@ -251,13 +280,17 @@
 				86C7906B2836ED0700DA691B /* GradientView.swift in Sources */,
 				8617D9202826ACA400DF95FD /* AppDelegate.swift in Sources */,
 				8617D9442826BCDB00DF95FD /* PlatListViewModel.swift in Sources */,
+				86F240A7284AA41600ED04A6 /* HomeViewController.swift in Sources */,
 				861D70212836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift in Sources */,
 				8617D9402826BAEC00DF95FD /* PlayList.swift in Sources */,
 				86C790672836EAC400DA691B /* PlatlistDetailViewModel.swift in Sources */,
+				86F240AD284AAD9F00ED04A6 /* SearchTableViewCell.swift in Sources */,
 				8617D9422826BB4200DF95FD /* Request.swift in Sources */,
 				8617D9222826ACA400DF95FD /* SceneDelegate.swift in Sources */,
 				8617D9462826BDDD00DF95FD /* LibraryViewController.swift in Sources */,
 				86C790652836E92500DA691B /* PlayListDetail.swift in Sources */,
+				86F240A9284AA59400ED04A6 /* Search.swift in Sources */,
+				86F240AB284AA67D00ED04A6 /* SearchViewModel.swift in Sources */,
 				8617D93A2826AFD400DF95FD /* Spotify+String.swift in Sources */,
 				86C7906D2836F23300DA691B /* PlaylistDetailViewController.swift in Sources */,
 			);
@@ -423,7 +456,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -487,6 +520,14 @@
 				kind = branch;
 			};
 		};
+		868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -499,6 +540,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 861D70222836FDAE003B0BC7 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		868EFC612841789200FAD5F8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		868EFC632841789200FAD5F8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		868EFC652841789200FAD5F8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		868EFC672841789200FAD5F8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868EFC602841789200FAD5F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
